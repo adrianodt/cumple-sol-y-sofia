@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap");
+
+@font-face {
+    font-family: "Chewy";
+    src: url("/font/Chewy.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(116, 88, 100);
+    background: radial-gradient(
+        circle,
+        rgb(108, 206, 113) 0%,
+        rgb(64, 79, 97) 100%
+    );
+}
+
+.container-1 {
+    margin: 0px auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 320px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.card-container {
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    border: solid 4px rgba(180, 69, 69, 0);
+}
+
+header {
+    height: 290px;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("/img/fondo-header.jpg");
+    background-size: cover;
+}
+
+.separator {
+    height: 10px;
+    background-color: rgb(62, 96, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separator img {
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+
+main {
+    background-image: url("/img/fondo-main.jpg");
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    border-radius: 0 0 10px 10px;
+}
+
+main .text1 {
+    padding: 20px 10px 10px 10px;
+    color: #3b3327;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    font-family: Chewy;
+    font-size: 30px;
+}
+
+main .text2 {
+    color: #3b3327;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    font-family: "Comfortaa", cursive;
+    font-size: 24px;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+main .text3 {
+    color: #3b3327;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    font-family: "Comfortaa", cursive;
+    font-size: 40px;
+}
+
+main .text4 {
+    padding: 10px 20px;
+    color: #3b3327;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    font-family: "Comfortaa", cursive;
+}
+
+audio {
+    width: 90%;
+}
+
+#asistencia {
+    margin-top: 10px;
+}
+
+.conteo {
+    padding: 10px 20px;
+}
+.conteo #demo {
+    font-family: "Comfortaa", cursive;
+    font-size: 30px;
+}
+
+.conteo #tituloconteo {
+    font-family: "Comfortaa", cursive;
+    font-size: 24px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-family: "Outfit", sans-serif;
+    color: antiquewhite;
+    margin-top: 10px;
+}
