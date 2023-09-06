@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Varela+Round&display=swap");
 
 @font-face {
-    font-family: "Chewy";
-    src: url("/font/Chewy.ttf");
+    font-family: "Super";
+    src: url("/font/Supersonic\ Rocketship.ttf");
 }
 
 * {
@@ -32,7 +32,8 @@ body {
     text-align: center;
     width: 100%;
     border-radius: 10px;
-    border: solid 4px rgba(180, 69, 69, 0);
+    border: solid 4px white;
+    font-family: "Varela Round", sans-serif;
 }
 
 header {
@@ -44,8 +45,8 @@ header {
 }
 
 .separator {
-    height: 10px;
-    background-color: rgb(62, 96, 77);
+    height: 2px;
+    background-color: #005b93;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,43 +60,34 @@ header {
 }
 
 main {
-    background-image: url("/img/fondo-main.jpg");
+    background-image: url("/img/fondo-main.png");
     background-repeat: no-repeat;
-    background-size: 800px;
+    background-size: 500px;
     background-position: center;
     padding-bottom: 20px;
     padding-top: 80px;
     border-radius: 0 0 10px 10px;
+    color: white;
 }
 
 main .text1 {
+    margin-top: 35px;
     padding: 20px 10px 10px 10px;
-    color: #3b3327;
-    text-shadow: rgb(255, 255, 255) 1px 0 10px;
-    font-family: Chewy;
+    font-family: Super;
     font-size: 30px;
 }
 
 main .text2 {
-    color: #3b3327;
-    text-shadow: rgb(255, 255, 255) 1px 0 10px;
-    font-family: "Comfortaa", cursive;
-    font-size: 24px;
-    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    font-size: 30px;
 }
 
 main .text3 {
-    color: #3b3327;
-    text-shadow: rgb(255, 255, 255) 1px 0 10px;
-    font-family: "Comfortaa", cursive;
     font-size: 40px;
 }
 
 main .text4 {
-    padding: 10px 20px;
-    color: #3b3327;
-    text-shadow: rgb(255, 255, 255) 1px 0 10px;
-    font-family: "Comfortaa", cursive;
+    padding: 0px 20px;
+    font-size: 20px;
 }
 
 audio {
@@ -110,13 +102,11 @@ audio {
     padding: 10px 20px;
 }
 .conteo #demo {
-    font-family: "Comfortaa", cursive;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .conteo #tituloconteo {
-    font-family: "Comfortaa", cursive;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 footer {
